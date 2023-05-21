@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en-es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@100;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="sass/index.scss" />
+    <title>Filmoteka</title>
+  </head>
+<body>
+  <header>
+    <section class="header-container">
+      <include src="./partials/switch.html"></include>
+      <div class="container-divisions">
+        <div class="division-left">
+          <div class="logo-icon">
+            <svg class="film-icon" width="24" height="24" href="/src/index.html">
+              <use href="./assets/images/icons.svg#icon-film"></use>
+            </svg>
+          </div>
+          <div class="page-name">
+            <a href="./index.html" class="main_tittle"><h1>Filmoteka</h1></a>
+          </div>
+        </div>      
+        </div>
+        <div class="division-center">       
+          <div>
+            <spam class="error"></spam>
+          </div>
+        </div>
+    </section>
+    </header>
+    <main>
+    <section>
+      <div class="container">
+        <h2 hidden>Popular films</h2>
+        <div id="films" class="films"></div>
+      </div>
+    </section>
+    </main>
+    <script type="module" src="./js/index.js"></script>
+  </body>
+</html>
